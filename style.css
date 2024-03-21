@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    font-family: 'Courier New', Courier, monospace;
+    background-color: gray;
+}
+header{
+    color: white;
+    height: 40vh;
+   
+}
+main{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+     
+}
+.left{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 52rem;
+}
+.right{
+    position: relative;
+    top: -60px;
+    width:52rem;
+    font-size: 30px;
+}
+h1{
+   position: absolute;
+   text-align: center;
+   width: 100%;
+   top: 100px;
+}
+.number{
+    font-family:'Courier New', Courier, monospace;
+    background: white;
+    color: black;
+    text-align: center;
+    position: absolute;
+    left: 45%;
+    font-size: 5rem;
+    top:200px;
+}
+.between{
+    position: absolute; 
+    top:50px;
+    right: 2rem;
+}
+.butt{
+    position: absolute;
+    top:50px;
+    left:2rem;
+
+}
+.num{
+    font-size:70px;
+     text-align: center;
+     padding: 2rem;
+     margin-bottom: 2rem;
+     width: 50%;
+     height: 20vh;
+    
+}
+.check{
+
+    
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight:bolder;
+    background-color: black;
+    color:white;
+}
+
+.butt{
+    padding: 20px;
+    background-color: black;
+    color:white;
+}
